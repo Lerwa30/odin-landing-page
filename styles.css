@@ -28,6 +28,10 @@ a {
     color: aliceblue;
 }
 
+a:hover {
+    background-color: lightblue;
+}
+
 .home-container {
     display: flex;
     padding: 40px;
@@ -79,6 +83,8 @@ button {
 .img-container img {
     height: 200px;
     width: 250px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
    
 }
 
@@ -108,7 +114,8 @@ h2 {
     text-align: center;
     background-color: lightskyblue;
     padding: 10px;
-    margin: 50px;border-radius: 10px;
+    margin: 50px;
+    border-radius: 10px;
 
 }
 
