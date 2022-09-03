@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-color: #1f2937;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 30px;
+    margin-right: 40px;
+    
+}
+
+.home-container img {
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home-container {
+    display: flex;
+    padding: 40px;
+}
+
+.home-text {
+    align-items: center;
+    padding: 20px;
+    color:aliceblue;
+    margin-bottom: auto;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+button {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.climb-img {
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.img-container {
+  display: flex;
+  justify-content: space-between;    
+  padding: 20px;
+  gap: 30px;
+  margin: auto;
+  
+}
+
+
+
+.img-container img {
+    height: 200px;
+    width: 250px;
+   
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.quote {
+    margin-top: 50px;
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 36px;
+    font-style: italic;
+    padding: 60px;
+}
+
+.signup {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 50px;border-radius: 10px;
+
+}
+
+.signup button {
+    margin-top: 10px;
+}
